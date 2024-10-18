@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+.kontener{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    color: white;
+}
+.title{
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 40px;
+}
+ul{
+    padding: 40px;
+}
+header{
+    background-image: url('mountains-6531903_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    text-shadow: 1px 1px 1px black;
+}
+button{
+    border: none;
+    background-color: brown;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    opacity: 0.8;
+    font-size: 18px;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: brown;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.img{
+    width: 300px;
+    border-radius: 5px;
+    height: 200px;
+}
+.oferta{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 36px;
+} 
+.text{
+    background-color: black;
+    opacity: .8;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 44px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.first:hover, .second:hover, .third:hover{
+    transform: scale(.9);
+    transition: .2s;
+}
+.first, .second, .third{
+    transition: .2s;
+}
+.rooms{
+    display: flex;
+    background-color: gray;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+.szczegoly{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
