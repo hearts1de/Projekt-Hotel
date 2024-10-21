@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+}
+.kontener{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    color: white;
+}
+.title{
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 40px;
+}
+ul{
+    padding: 40px;
+}
+header{
+    background-image: url('mountains-6531903_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    text-shadow: 1px 1px 1px black;
+}
+button{
+    border: none;
+    background-color: brown;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    opacity: 0.8;
+    font-size: 18px;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: brown;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.img{
+    width: 300px;
+    border-radius: 5px;
+    height: 200px;
+}
+.oferta{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 36px;
+} 
+.text{
+    background-color: black;
+    opacity: .8;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 44px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.first:hover, .second:hover, .third:hover{
+    transform: scale(.9);
+    transition: .2s;
+}
+.first, .second, .third{
+    transition: .2s;
+}
+.rooms{
+    display: flex;
+    background-color: gray;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+.szczegoly{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+.onas{
+    display: flex;
+    padding: 40px;
+}
+.onastext{
+    padding: 60px;
+    text-align: center;
+}
+.onasPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.join{
+    background-image: url(mountains-6531903_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 120px;
+}
+.joinUs{
+    font-size: 45px;
+    color: azure;
+}
+footer{
+    display: flex;
+    background-color: darkolivegreen;
+    color: azure;
+    height: 100px;
+}
+.footer, .listfooter, .empty{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.listP{
+    padding: 10px;
+}
+.form{
+    background-color: wheat;
+    height: 200px;
+    width: 300px;
+}
+.main{
+    margin-left: 40%;
+    padding: 50px;
+}
